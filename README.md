@@ -14,6 +14,7 @@ If you want to download it using git, copy paste the link that is presented to y
 5. css-loader
 6. style-loader
 7. webpack.optimize.CommonsChunkPlugin
+8. chunkhash for different hash file name when build
 
 ```
   > git clone git@github.com:smalltide/WebpackProject.git
