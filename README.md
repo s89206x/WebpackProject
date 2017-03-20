@@ -19,5 +19,6 @@ If you want to download it using git, copy paste the link that is presented to y
   > git clone git@github.com:smalltide/WebpackProject.git
   > cd WebpackProject
   > npm install
+  > npm install --save-dev html-webpack-plugin
   > npm run bulid
 ```
