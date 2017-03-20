@@ -5,7 +5,7 @@ You can download this repository by using the green `Clone or Download` button o
 
 If you want to download it using git, copy paste the link that is presented to you, then run the following at your terminal:
 
-![alt text](https://github.com/smalltide/js_modules/blob/master/screenshot.png "js_modules")
+![alt text](https://github.com/smalltide/WebpackProject/blob/master/screenshot.png "WebpackProject")
 
 1. webpack
 2. react
@@ -14,12 +14,14 @@ If you want to download it using git, copy paste the link that is presented to y
 5. css-loader
 6. style-loader
 7. webpack.optimize.CommonsChunkPlugin
-8. chunkhash for different hash file name when build
+8. rimraf
+9. chunkhash for different hash file name when build
 
 ```
   > git clone git@github.com:smalltide/WebpackProject.git
   > cd WebpackProject
   > npm install
   > npm install --save-dev html-webpack-plugin
+  > npm install --save-dev rimraf
   > npm run bulid
 ```
