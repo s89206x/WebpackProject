@@ -13,7 +13,7 @@ If you want to download it using git, copy paste the link that is presented to y
 4. babel
 5. css-loader
 6. style-loader
-
+7. webpack.optimize.CommonsChunkPlugin
 
 ```
   > git clone git@github.com:smalltide/WebpackProject.git
