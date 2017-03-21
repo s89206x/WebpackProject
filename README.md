@@ -33,15 +33,23 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > npm install -g surge
   > npm run build
   > surge -p dist
-  > http://rare-respect.surge.sh
+  > https://rare-respect.surge.sh
 ```
 
 2. deploy to github pages(gh-pages)
 ```
   > git checkout -b gh-pages
   > git subtree push --prefix dist origin gh-pages
+  > https://smalltide.github.io/WebpackProject
 ```
 
+3. deploy to AWS S3
+```
+  > npm install -g s3-website
+  > s3-website create webpack-deploy
+  > s3-website deploy dist
+```
+npm install -g s3-website
 ## Deploy dynamic Page
 1.
 ```
