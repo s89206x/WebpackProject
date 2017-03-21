@@ -36,8 +36,10 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > http://rare-respect.surge.sh
 ```
 
-2.
+2. deploy to github pages(gh-pages)
 ```
+  > git checkout -b gh-pages
+  > git subtree push --prefix dist origin gh-pages
 ```
 
 ## Deploy dynamic Page
