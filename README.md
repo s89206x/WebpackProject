@@ -37,7 +37,14 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
 ```
 
 2.
+```
+```
 
 ## Deploy dynamic Page
 1.
+```
+```
+
 2.
+```
+```
