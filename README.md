@@ -25,3 +25,19 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > npm run bulid
   > npm run server
 ```
+
+## Deploy Static Page
+
+1. deploy to Surge
+```
+  > npm install -g surge
+  > npm run build
+  > surge -p dist
+  > http://rare-respect.surge.sh
+```
+
+2.
+
+## Deploy dynamic Page
+1.
+2.
