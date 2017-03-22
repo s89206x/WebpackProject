@@ -29,7 +29,8 @@ Deploy to Surge, github pages, AWS, Heroku
 
   > npm install --save express
   > npm install --save-dev webpack-dev-middleware
-  > node server.js
+  > node server.js (for dev)
+  > NODE_ENV=production node server.js (for production)
 ```
 
 ## Deploy Static Page
