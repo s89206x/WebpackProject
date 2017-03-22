@@ -73,5 +73,6 @@ Deploy to Surge, github pages, AWS, Heroku
   > eb init
   > eb create
   > eb setenv NODE_ENV=production
+  > eb deploy
   > eb open
 ```
