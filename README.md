@@ -1,5 +1,7 @@
 # WebpackProject
-Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server to build Single Page Application, and implement load on demand
+Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server to build Single Page Application, and implement load on demand.
+
+Deploy to Surge, github pages, AWS, Heroku
 
 ![alt text](https://github.com/smalltide/WebpackProject/blob/master/screenshot.png "WebpackProject")
 
@@ -26,7 +28,8 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > npm run serve
 
   > npm install --save express
-
+  > npm install --save-dev webpack-dev-middleware
+  > node server.js
 ```
 
 ## Deploy Static Page
