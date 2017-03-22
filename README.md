@@ -23,7 +23,10 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > npm install --save-dev webpack-dev-server@2.2.0-rc.0
 
   > npm run bulid
-  > npm run server
+  > npm run serve
+
+  > npm install --save express
+
 ```
 
 ## Deploy Static Page
@@ -49,7 +52,7 @@ Starter Repo for a Webpack course on Udemy, use webpack and webpack-dev-server t
   > s3-website create webpack-deploy
   > s3-website deploy dist
 ```
-npm install -g s3-website
+
 ## Deploy dynamic Page
 1.
 ```
