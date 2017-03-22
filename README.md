@@ -64,8 +64,14 @@ Deploy to Surge, github pages, AWS, Heroku
   > heroku login
   > heroku create webpack-deploy
   > git push heroku master
+  > https://webpack-deploy.herokuapp.com
 ```
 
-2.
+2. deploy to AWS Elastic Beanstalk
 ```
+  > brew install awsebcli
+  > eb init
+  > eb create
+  > eb setenv NODE_ENV=production
+  > eb open
 ```
