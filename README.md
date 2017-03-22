@@ -58,8 +58,12 @@ Deploy to Surge, github pages, AWS, Heroku
 ```
 
 ## Deploy dynamic Page
-1.
+1. deploy to Heroku
 ```
+  > echo "web: node server.js" > Profile
+  > heroku login
+  > heroku create webpack-deploy
+  > git push heroku master
 ```
 
 2.
